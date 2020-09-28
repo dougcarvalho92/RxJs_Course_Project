@@ -28,7 +28,7 @@ projectsList.subscribe((projects) => {
   projects.forEach((project) => {
     template += `
     <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 100%">
         <img src="${project.owner.avatar_url}" class="card-img-top img-thumbnail w-100 img-fluid"  alt="${project.name}">
         <div class="card-body">
           <h5 class="card-title">${project.owner.login}</h5>
