@@ -1,0 +1,15 @@
+.project-list{
+	padding: 0;
+}
+
+.project-list-item{
+	list-style-type: none;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.project-owner-avatar{
+	width: 50px;
+	float: left;
+	margin-right: 10px;
+}
